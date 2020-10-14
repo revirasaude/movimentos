@@ -1,0 +1,121 @@
+/*
+ Theme Name:   Retina Blog Child
+ Theme URI:    http://example.com/twenty-sixteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     retina-blog
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+
+#mainmap {
+  height: 480px;
+  width: 100%;
+}
+
+#singlemap {
+  height: 480px;
+}
+
+.site-content {
+  padding-top: 0em;
+}
+
+.article-wrapper {
+    background: white;
+}
+
+.main-navigation {
+  border-bottom: 0px !important;
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+.banner-overlay {
+    opacity: 1;
+    background-image: url("http://mapadeconflitos.ensp.fiocruz.br/wp-content/uploads/2018/11/Banner2.png");
+}
+
+.wrapper {
+    padding: 0px;
+}
+
+.site-title {
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    background-color: rgba(150, 150, 150, 0.7);
+}
+
+.top-area {
+    padding: 44px 0;
+    height: 160px;
+}
+
+.searchandfilter ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.searchandfilter ul li:first-child {
+    display: block;
+    width: 100%;
+}
+
+.searchandfilter select {
+  width: 95%;
+}
+
+#ofuf { width: 100%}
+
+.searchandfilter input[type="text"] {
+  width: 100%;
+}
+
+.searchandfilter input[type="submit"] {
+  line-height: 0.66;
+}
+
+
+.searchandfilter ul li {
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.searchandfilter ul li:nth-child(7) {
+    float: right;
+    margin-right: 10px;
+}
+
+@media (min-width:480px) {
+  .site-title {
+      font-size: 2.0rem;
+      letter-spacing: 6px;
+  }
+  .searchandfilter ul li {
+      width: 23%;
+  }
+
+  .searchandfilter ul li:nth-child(6) {
+      width: 8%;
+  }
+  .searchandfilter ul li:nth-child(7) {
+      width: 100%;
+      text-align: right;
+      margin-right: 0px;
+  }
+  .conflitos_count {
+      margin-top: -33px;
+      margin-bottom: 7px;
+      margin-left: 3px;
+  }
+}
+
+.footer-widget-area .col.col-full {
+    width: 100%;
+}
